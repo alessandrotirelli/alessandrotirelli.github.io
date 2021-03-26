@@ -6,8 +6,8 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="icon" href="/Images/Logo.svg">
 		<link rel="stylesheet" type="text/css" href="/Code/style.css">
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<script src="https://kit.fontawesome.com/2b87fb0f9b.js" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -18,7 +18,7 @@
 			<nav class="navbar navbar-expand-lg fixed-top py-3">
 				<div class="container">
 					<span class="d-flex flex-row"><a href="https://www.pascal.edu.it/"><img src="/Images/Logo.svg" class="rounded-circle" width="36" height="36" data-holder-rendered="true"></a><h5 class="pl-2 pt-2">ALESSANDRO TIRELLI</h5></span>
-					<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" style="width: 4rem !important">
+					<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" style="width: 4rem !important; outline: none !important;">
 						<i class="fa fa-bars"></i>
 					</button>
 					<div id="navbarSupportedContent" class="collapse navbar-collapse">
@@ -34,33 +34,101 @@
 			</nav>
 		</header>
 
-		<div class="d-flex justify-content-center m-3">
+		<div class="d-flex justify-content-center mb-3 w-100">
 			<div class="card-group" style="margin-top: 6rem !important; width: 80rem;" >
-				<div class="card shadow" style="z-index: 1!important;">
-					<img class="card-img-top" src="/Images/Lupo2.jpg" alt="Card image cap">
+				<div class="card shadow m-2" style="border: none;">
+					<img class="card-img-top" src="/Images/IMG_1621.jpeg" style="filter: grayscale(0%);">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-						<a href="#" class="btn btn-primary">Go somewhere</a>
+						<h5 class="card-title mb-n1">Alessandro Tirelli</h5>
+						<label class="text-muted mt-2">Full-stack and Big Data Developer</label>
 					</div>
 				</div>
-				<div class="card shadow">
+				<div class="card shadow m-2" style="border: none;">
 					<div class="card-body">
-						<h5 class="card-title">Card title</h5>
+						<h5 class="card-title">Chi sono?</h5>
 						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
 					</div>
 				</div>
 			</div>
 		</div>
-			
 
+		<div class="w-100 p-3" style="background-color: #eee !important;">
+			<h1 class="text-center p-4">Interessi e passioni</h1>
+			<div class="container text-left my-4">
+				<div class="row">
+					<div class="col-sm">
+						<h4 style="color: #f94144;"><a class="fab fa-python " style="font-size: 25px;"></a>Web Development</h4>
+						<p class="pl-5">Ho appreso, da autodidatta, la sintassi di base </p>
+					</div>
+					<div class="col-sm">
+						<h4 style="color: #Fc846c;"><a class="fas fa-terminal " style="font-size: 25px;"></a>Terminal</h4>
+						<p class="pl-5">Ho appreso, <strong>da autodidatta</strong>, la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>	
+					</div>
+					<div class="col-sm">
+						<h4 style="color: #ffd343;"><a class="fab fa-python " style="font-size: 25px;"></a>Python</h4>
+						<p class="pl-5">Ho appreso, <strong>da autodidatta</strong> , la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col-sm">
+						<h4 style="color: #7400b8;"><a class="fas fa-guitar" style="font-size: 25px;"></a>Guitar</h4>
+						<p class="pl-5">Da buon appassionato di musica rock e county vivo circondato da chitarre. Con la fine della scuola media ho avuto l'opportunità di studiare oboe e solfeggio musicale al conservatorio Peri di Reggio Emilia, percorso abbandonato a malincuore</p>
+					</div>
+					<div class="col-sm">
+						<h4 style="color: #5390d9;"><a class="fas fa-futbol " style="font-size: 25px;"></a>Football</h4>
+						<p class="pl-5">Ho appreso, <strong>da autodidatta</strong>, la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>
+						
+					</div>
+					<div class="col-sm">
+						<h4 style="color:  #56cfe1;"><a class="fas fa-chess-knight" style="font-size: 25px;"></a>Chess</h4>
+						<p class="pl-5">Ho appreso, <strong>da autodidatta</strong> , la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>
+					</div>
+				</div>
+			</div>
+		</div>
 
+		<div class="w-100 p-3" style="background-color: #fff !important;">
+			<h1 class="text-center p-4">Interessi e passioni</h1>
+			<div class="container text-left mt-3">
+				<div class="row">
+					<div class="col-sm">
+						<h4 style="color: #f94144;"><a class="fab fa-python " style="font-size: 25px;"></a>Web Development</h4>
+						<p class="pl-5">Ho appreso, da autodidatta, la sintassi di base </p>
+					</div>
+					<div class="col-sm">
+						<h4 style="color: #Fc846c;"><a class="fas fa-terminal " style="font-size: 25px;"></a>Terminal</h4>
+						<p class="pl-5">Ho appreso, <strong>da autodidatta</strong>, la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>	
+					</div>
+					<div class="col-sm">
+						<h4 style="color: #ffd343;"><a class="fab fa-python " style="font-size: 25px;"></a>Python</h4>
+						<p class="pl-5">Ho appreso, <strong>da autodidatta</strong> , la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>
+					</div>
+				</div>
+				<div class="row mt-3">
+					<div class="col-sm">
+						<h4 style="color: #7400b8;"><a class="fas fa-guitar" style="font-size: 25px;"></a>Guitar</h4>
+						<p class="pl-5">Da buon appassionato di musica rock e county vivo circondato da chitarre. Con la fine della scuola media ho avuto l'opportunità di studiare oboe e solfeggio musicale al conservatorio Peri di Reggio Emilia, percorso abbandonato a malincuore</p>
+					</div>
+					<div class="col-sm">
+						<h4 style="color: #5390d9;"><a class="fas fa-futbol " style="font-size: 25px;"></a>Football</h4>
+						<p class="pl-5">Ho appreso, <strong>da autodidatta</strong>, la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>
+						
+					</div>
+					<div class="col-sm">
+						<h4 style="color:  #56cfe1;"><a class="fas fa-chess-knight" style="font-size: 25px;"></a>Chess</h4>
+						<p class="pl-5">Ho appreso, <strong>da autodidatta</strong> , la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		
 		<footer id="footer" class="fancy-border">
 			<div class="d-flex justify-content-center">
-				<a href="#" class="fa fa-youtube" style="font-size: 35px;"></a>
-				<a href="https://www.instagram.com/alletirelli_/" class="fa fa-instagram" style="font-size: 35px;"></a>
-				<a href="#" class="fa fa-linkedin" style="font-size: 35px;"></a>
-				<a href="https://github.com/alessandrotirelli" class="fa fa-github" style="font-size: 35px;"></a>
+				<a href="#" class="fab fa-youtube" style="font-size: 35px;"></a>
+				<a href="https://www.instagram.com/alletirelli_/" class="fab fa-instagram" style="font-size: 35px;"></a>
+				<a href="#" class="fab fa-linkedin" style="font-size: 35px;"></a>
+				<a href="https://github.com/alessandrotirelli" class="fab fa-github" style="font-size: 35px;"></a>
 			</div>
 		</footer>
 		<script type="text/javascript" src="/Code/script.js"></script>

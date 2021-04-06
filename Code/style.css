@@ -31,6 +31,43 @@ span {
   display: table-cell;
 }
 
+p {
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.here {
+  color: #Fc846c !important;
+  border-bottom: 1px solid #Fc846c!important;
+}
+
+.chetwode {
+  color: #8c8cdc!important;
+}
+
+.bg-chetwode {
+  background-color: #8c8cdc!important;
+}
+
+.salmon {
+  color: #Fc846c!important;
+}
+
+.bg-salmon {
+  background-color: #Fc846c!important;
+}
+
+.link {
+  color: #8c8cdc !important;
+}
+
+.link:hover, .nav-link:hover {
+  color: #Fc846c !important;
+}
+
 .navbar {
   transition: all 0.4s;
 }
@@ -92,7 +129,6 @@ span {
   text-decoration: none;
   transition: .3s;
   color: #24292e;
-  text-decoration: none !important;
 }
 
 .fa-instagram:hover {
@@ -118,4 +154,24 @@ span {
 @keyframes fadeinfromtop {
   from { opacity: 0; top: -50px; }
   to   { opacity: 1; top: 0;}
+}
+
+@keyframes fadeinfromleft {
+  from { opacity: 0; left: -50px; }
+  to   { opacity: 1; left: 0;}
+}
+
+@keyframes fadeinfromright {
+  from { opacity: 0; right: -50px; }
+  to   { opacity: 1; right: 0;}
+}
+
+@keyframes fadein {
+  from { opacity: 0;}
+  to   { opacity: 1;}
+}
+
+::selection {
+  color: #fff;
+  background-color: #Fc846c;
 }

@@ -12,22 +12,18 @@ $(function () {
 });
 
 $(document).ready(function () {
-  // executes when HTML-Document is loaded and DOM is ready
 
     $(".card").hover(
         function () {
             $(this).addClass("shadow-lg").css("transition", ".3s");
-            //$(this).addClass("shadow").css({"cursor": "pointer", "transition": ".3s", "transform": "scale(1.1)"});
         },
         function () {
             $(this).removeClass("shadow-lg");
-            //$(this).removeClass("shadow").css("transform", "scale(1)");
         }
     );
     $(".navbar-toggler").on("click",
         function () {
             if ($(window).scrollTop() <= 10) {
-                
                 $(".navbar").toggleClass("active");
             }
             open = !open;

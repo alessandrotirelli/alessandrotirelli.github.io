@@ -4,9 +4,11 @@
 		<title>Alessandro Tirelli</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="icon" href="/Images/Logo.svg">
+		<link rel="icon" href="/Media/Logo.svg">
 		<link rel="stylesheet" type="text/css" href="/Code/style.css">
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="https://kit.fontawesome.com/2b87fb0f9b.js" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -17,17 +19,17 @@
 		<header class="header">
 			<nav class="navbar navbar-expand-lg fixed-top py-3">
 				<div class="container">
-					<span class="d-flex flex-row"><a href="https://www.pascal.edu.it/"><img src="/Images/Logo.svg" class="rounded-circle" width="36" height="36" data-holder-rendered="true"></a><h5 class="pl-2 pt-2">ALESSANDRO TIRELLI</h5></span>
+					<span class="d-flex flex-row"><a href="https://www.pascal.edu.it/"><img src="/Media/Logo.svg" class="rounded-circle" width="36" height="36" data-holder-rendered="true"></a><h5 class="pl-2 pt-2">ALESSANDRO TIRELLI</h5></span>
 					<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right" style="width: 4rem !important; outline: none !important;">
 						<i class="fa fa-bars"></i>
 					</button>
 					<div id="navbarSupportedContent" class="collapse navbar-collapse">
 						<ul class="navbar-nav ml-auto">
-							<li class="nav-item"><a href="#" class="nav-link text-uppercase">Home</a></li>
-							<li class="nav-item"><a href="#" class="nav-link text-uppercase">Classe Terza</a></li>
-							<li class="nav-item"><a href="#" class="nav-link text-uppercase">Classe Quarta</a></li>
-							<li class="nav-item"><a href="#" class="nav-link text-uppercase">Classe Quinta</a></li>
-							<li class="nav-item"><a href="#" class="nav-link text-uppercase ">Contact</a></li>
+							<li class="nav-item"><a href="../" class="nav-link text-uppercase here">Home</a></li>
+							<li class="nav-item"><a href="../Terza/" class="nav-link text-uppercase">Classe Terza</a></li>
+							<li class="nav-item"><a href="../Quarta/" class="nav-link text-uppercase">Classe Quarta</a></li>
+							<li class="nav-item"><a href="../Quinta/" class="nav-link text-uppercase">Classe Quinta</a></li>
+							<li class="nav-item"><a href="../Contattami/" class="nav-link text-uppercase">Contattami</a></li>
 						</ul>
 					</div>
 				</div>
@@ -36,71 +38,116 @@
 
 		<div class="d-flex justify-content-center mb-3 w-100">
 			<div class="card-group" style="margin-top: 6rem !important; width: 80rem;" >
-				<div class="card shadow m-2" style="border: none;">
-					<img class="card-img-top" src="/Images/IMG_1621.jpeg" style="filter: grayscale(0%);">
+				<div class="card shadow m-2 rounded" style="border: none;" data-aos="fade-down" data-aos-duration="1400">
+					<img class="card-img-top rounded-top" src="/Media/IMG_1621.jpeg" style="filter: grayscale(0%);">
 					<div class="card-body">
 						<h5 class="card-title mb-n1">Alessandro Tirelli</h5>
 						<label class="text-muted mt-2">Full-stack and Big Data Developer</label>
 					</div>
 				</div>
-				<div class="card shadow m-2" style="border: none;">
+				<div class="card shadow m-2 rounded" style="border: none;"  data-aos="fade-down" data-aos-duration="1400">
 					<div class="card-body">
-						<h5 class="card-title">Chi sono?</h5>
-						<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+						<h4 class="card-title pt-2">30 secondi di me</h4>
+						<p class="card-text pb-4">
+							Mi chiamo Alessandro, ho 18 anni e attualmente studio Informatica presso l'IIS Blaise Pascal di Reggio Emilia.
+							Ho intenzione di continuare il mio percorso di studi al Politecnico di Milano per poi poter lavorare in un'azienda di informatica
+							o mettermi in proprio.
+						</p>
+						<h4>Soft Skills</h4>
+						<div class="my-3">
+							<span class="w-100">Capacità di comunicazione</span>
+							<span class="text-right">80/100</span>
+							<div class="progress">
+								<div class="progress-bar bg-chetwode" role="progressbar" style="width: 80%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<div class="my-3">
+							<span class="w-100">Problem Solving</span>
+							<span class="text-right">85/100</span>
+							<div class="progress">
+								<div class="progress-bar bg-chetwode" role="progressbar"style="width: 85%" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<div class="my-3">
+							<span class="w-100">Lateral Thinking</span>
+							<span class="text-right">90/100</span>
+							<div class="progress">
+								<div class="progress-bar bg-chetwode" role="progressbar" style="width: 90%" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
+						<div class="my-3">
+							<span class="w-100">Leadership</span>
+							<span class="text-right">95/100</span>
+							<div class="progress">
+								<div class="progress-bar bg-chetwode" role="progressbar" style="width: 95%" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"></div>
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="w-100 p-3" style="background-color: #eee !important;">
-			<h1 class="text-center p-4">Interessi e passioni</h1>
-			<div class="container text-left mt-3">
-				<div class="row">
-					<div class="col-sm">
-						<h4 style="color: #f94144;"><a class="fab fa-python " style="font-size: 25px;"></a>Web Development</h4>
-						<p class="pl-5"></p>
-					</div>
-					<div class="col-sm">
-						<h4 style="color: #Fc846c;"><a class="fas fa-terminal " style="font-size: 25px;"></a>Terminal</h4>
-						<p class="pl-5"></p>	
-					</div>
-					<div class="col-sm">
-						<h4 style="color: #ffd343;"><a class="fab fa-python " style="font-size: 25px;"></a>Python</h4>
-						<p class="pl-5">Ho appreso, <strong>da autodidatta</strong> , la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>
-					</div>
-				</div>
-				<div class="row mt-3">
-					<div class="col-sm">
-						<h4 style="color: #7400b8;"><a class="fas fa-guitar" style="font-size: 25px;"></a>Guitar</h4>
-						<p class="pl-5">Da buon appassionato di musica rock e county vivo circondato da chitarre. Con la fine della scuola media ho avuto l'opportunità di studiare oboe e solfeggio musicale al conservatorio Peri di Reggio Emilia, percorso abbandonato a malincuore</p>
-					</div>
-					<div class="col-sm">
-						<h4 style="color: #5390d9;"><a class="fas fa-futbol " style="font-size: 25px;"></a>Football</h4>
-						<p class="pl-5"></p>
-						
-					</div>
-					<div class="col-sm">
-						<h4 style="color:  #56cfe1;"><a class="fas fa-chess-knight" style="font-size: 25px;"></a>Chess</h4>
-						<p class="pl-5"></p>
+		<div class="w-100 p-3 mt-5" style="background-color: #eee !important;" data-aos="fade-up" data-aos-duration="1200" data-aos-offset="350">
+			<div>
+				<h1 class="text-center p-4">Competenze tecniche</h1>
+				<div class="container text-left mt-3">
+					<div class="row">
+						<div class="col-sm">
+							<h3 style="color: #f94144;"><a class="fas fa-code" style="font-size: 25px;"></a>Web Development</h3>
+							<p class="pl-4 pt-1">La progettazione di siti web, in particolare la creazione della User Interface, mi danno <strong>parecchia soddisfazione</strong>. Nei primi mesi del 2021 ho realizzato una piattaforma web che permettesse di visualizzare e filtrare i collaudi effettuati sui prodotti di <a href="https://www.aragnet.com" style="text-decoration: none;">ARAG SRL</a> su loro commissione</p>
+						</div>
+						<div class="col-sm">
+							<h3 style="color: #Fc846c;"><a class="fas fa-terminal" style="font-size: 25px;"></a>Terminal</h3>
+							<p class="pl-4 pt-1">Conoscere la sintassi del <strong>prompt di Linux/MacOS</strong> mi permette di svolgere task talvolta non accessibili da interfaccia grafica, la considero una skill molto utile</p>	
+						</div>
+						<div class="col-sm">
+							<h3 style="color: #ffd343;"><a class="fab fa-python" style="font-size: 25px;"></a>Python</h3>
+							<p class="pl-4 pt-1">Ho appreso, <strong>da autodidatta</strong> , la sintassi di base. Incuriosito e sorpreso dalla potenza di questo linguaggio ho approfondito gli studi e mi sono divertito nella creazione di script di vario genere</p>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<div class="w-100 p-3" style="background-color: #fff !important;">
-			<h1 class="text-center p-4">Altro</h1>
+		<div class="w-100 p-3" style="background-color: #fff !important;" data-aos="fade-up" data-aos-duration="1200" data-aos-offset="200">
+			<div>
+				<h1 class="text-center p-4">Hobby e passioni</h1>
+				<div class="container text-left mt-3">
+					<div class="row">
+						<div class="col-sm">
+							<h3 style="color: #7400b8;"><a class="fas fa-guitar" style="font-size: 25px;"></a>Chitarra</h3>
+							<p class="pl-4 pt-1">Da buon appassionato di musica rock e county vivo circondato da chitarre. Con la fine della scuola media ho avuto l'opportunità di studiare oboe e solfeggio musicale al conservatorio Peri di Reggio Emilia, percorso abbandonato a malincuore</p>
+						</div>
+						<div class="col-sm">
+							<h3 style="color: #5390d9;"><a class="fas fa-futbol" style="font-size: 25px;"></a>Calcio</h3>
+							<p class="pl-4 pt-1">Gioco a calcio a livello dilettantistico  <strong>dall'età di 5 anni</strong>. Sono molto legato a questo sport poichè mi da tanto e ho conoscuto persone fantastiche e amici grazie ad esso</p>
+							
+						</div>
+						<div class="col-sm">
+							<h3 style="color:  #56cfe1;"><a class="fas fa-chess-knight" style="font-size: 25px;"></a>Scacchi</h3>
+							<p class="pl-4 pt-1">L'antico gioco degli scacchi non finisce mai di stupimi: gioco per puro divertimento, apprendo strategie nuove leggendo libri e magari un giorno partecioperò ad un torneo ufficiale</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 		
-		<footer id="footer" class="fancy-border">
+		<footer id="footer" class="fancy-border mt-5">
 			<div class="d-flex justify-content-center">
 				<a href="https://github.com/alessandrotirelli" class="fab fa-github" style="font-size: 35px;"></a>
 				<a href="#" class="fab fa-youtube" style="font-size: 35px;"></a>
 				<a href="https://www.instagram.com/alletirelli_/" class="fab fa-instagram" style="font-size: 35px;"></a>
 				<a href="#" class="fab fa-linkedin" style="font-size: 35px;"></a>
 			</div>
+			<div class="d-flex justify-content-center mt-3 mb-n5">
+				<label class="text-muted">© COPYRIGHT 2021 Alessandro Tirelli</label>
+			</div>
 		</footer>
 		<script type="text/javascript" src="/Code/script.js"></script>
+		<script>
+			AOS.init();
+		</script>
 		
 	</body>
 </html>

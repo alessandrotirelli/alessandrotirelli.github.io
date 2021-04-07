@@ -19,6 +19,7 @@ body {
   background-color: #edeeef;
   background-size: cover;
   color: #24292e;
+  overflow-y: overlay !important;
 }
 
 img {
@@ -41,7 +42,9 @@ a {
 
 .here {
   color: #Fc846c !important;
-  border-bottom: 1px solid #Fc846c!important;
+  background:linear-gradient(to right,#Fc846c 50%, rgba(0, 0, 0, 0) 50%) bottom !important;
+  background-repeat: no-repeat !important;
+  background-size: 100% 2px !important;
 }
 
 .chetwode {
@@ -62,6 +65,7 @@ a {
 
 .link {
   color: #8c8cdc !important;
+  transition: .4s;
 }
 
 .link:hover, .nav-link:hover {
@@ -74,6 +78,7 @@ a {
 
 .navbar .nav-link {
   color: #24292e;
+  transition: .4s;
 }
 
 .navbar .nav-link:hover,
@@ -106,7 +111,6 @@ a {
 .navbar.active .navbar-brand {
   color: #24292e;
 }
-
 
 /* Change navbar styling on small viewports */
 @media (max-width: 991.98px) {
@@ -149,6 +153,7 @@ a {
 
 #footer {
   background-color: white;
+  position: relative;
 }
 
 @keyframes fadeinfromtop {
@@ -175,3 +180,4 @@ a {
   color: #fff;
   background-color: #Fc846c;
 }
+

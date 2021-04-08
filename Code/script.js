@@ -31,8 +31,3 @@ $(document).ready(function () {
     );
 
 });
-
-$(window).on("load",function(){
-    console.log("fine");
-    $(".loader-wrapper").fadeOut("slow");
-});

@@ -42,7 +42,7 @@ a {
 
 .here {
   color: #Fc846c !important;
-  background:linear-gradient(to right,#Fc846c 50%, rgba(0, 0, 0, 0) 50%) bottom !important;
+  background:linear-gradient(to right,#Fc846c 40%, rgba(0, 0, 0, 0) 0%) bottom !important;
   background-repeat: no-repeat !important;
   background-size: 100% 2px !important;
 }

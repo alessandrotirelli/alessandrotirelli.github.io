@@ -168,3 +168,20 @@ a {
   background-color: white;
   position: relative;
 }
+
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+  }
+  ::-webkit-scrollbar-thumb {
+  background: #B5B5B5;
+  border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover{
+  background: #B5B5B5;
+  }
+  ::-webkit-scrollbar-track{
+  background: #ffffff;
+  border-radius: 10px;
+  box-shadow: inset 7px 10px 12px #f0f0f0;
+}

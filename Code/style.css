@@ -20,6 +20,7 @@ body {
   background-size: cover;
   color: #24292e;
   overflow-y: overlay !important;
+  overflow-x: hidden;
 }
 
 img {
@@ -162,6 +163,10 @@ a {
 
 .fa-github:hover {
   color: #000;
+}
+
+.fa-bars {
+  color: #24292e;
 }
 
 #footer {
